@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.language-item .content {
+  display: inline !important;
+}
+
+.language-text:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.feature-item p small {
+  color: rgb(145, 146, 148);
+  float: right;
+  font-weight: 100;
+  font-size: 0.8rem;
+}

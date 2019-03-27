@@ -1,0 +1,189 @@
+[
+  {
+    "id": "1",
+    "lname": "Arabic",
+    "lcode": "sa",
+    "resource": [
+      {
+        "rid": "SA1",
+        "rname": "Listening - Features, Series",
+        "rfolder": "features",
+        "features": [
+          {
+            "ruid": "1",
+            "label": "Features, Series 01 (BBC World Service 2005)",
+            "resUnit": "History of Islamic medicine",
+            "resItem": [
+              { "name": "Part 1 (14:26)", "fname": "CD_MED_1.mp3" },
+              { "name": "Part 2 (14:27)", "fname": "CD_MED_2.mp3" },
+              { "name": "Part 3 (14:07)", "fname": "CD_MED_3.mp3" },
+              { "name": "Part 4 (14:24)", "fname": "CD_MED_4.mp3" }
+            ]
+          },
+          {
+            "ruid": "2",
+            "label": "Features, Series 02 (BBC World Service 2005)",
+            "resUnit": "Egyptian revolution: 50 years on - Part 1 (45:06)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_EGY1_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_EGY1_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_EGY1_3.mp3" }
+            ]
+          },
+          {
+            "ruid": "3",
+            "label": "Feature, Series 03 (BBC World Service 2005)",
+            "resUnit": "Egyptian revolution: 50 years on - Part 2 (44:10)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_EGY2_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_EGY2_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_EGY2_3.mp3" }
+            ]
+          },
+          {
+            "ruid": "4",
+            "label": "Feature, Series 04 (BBC World Service 2005)",
+            "resUnit": "Zokak El Madak / by Naguib Mahfouz (01:01:27)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_ZOK_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_ZOK_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_ZOK_3.mp3" },
+              { "name": "Audio 4", "fname": "CD_ZOK_4.mp3" }
+            ]
+          },
+          {
+            "ruid": "5",
+            "label": "Feature, Series 05 (BBC World Service 2005)",
+            "resUnit": "The ideal husband / by Oscar Wilde (56:30)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_HUS_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_HUS_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_HUS_3.mp3" },
+              { "name": "Audio 4", "fname": "CD_HUS_4.mp3" }
+            ]
+          },
+          {
+            "ruid": "6",
+            "label": "Feature, Series 06 (BBC World Service 2005)",
+            "resUnit": "Farouk Shusha in a dialogue... (01:00:00)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_FAR_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_FAR_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_FAR_3.mp3" },
+              { "name": "Audio 4", "fname": "CD_FAR_4.mp3" }
+            ]
+          },
+          {
+            "ruid": "7",
+            "label": "Feature, Series 07 (BBC World Service 2005)",
+            "resUnit": "News bulletin and BBC XTRA (01:00:54)",
+            "resItem": [
+              { "name": "Audio 1", "fname": "CD_XTRA_1.mp3" },
+              { "name": "Audio 2", "fname": "CD_XTRA_2.mp3" },
+              { "name": "Audio 3", "fname": "CD_XTRA_3.mp3" },
+              { "name": "Audio 4", "fname": "CD_XTRA_4.mp3" }
+            ]
+          }
+        ]
+      },
+      {
+        "rid": "SA2",
+        "rname": "Listening - Interviews",
+        "rfolder": "interviews"
+      },
+      {
+        "rid": "SA3",
+        "rname": "Mastering Arabic 1",
+        "rfolder": "masteringarabic1"
+      },
+      {
+        "rid": "SA4",
+        "rname": "Mastering Arabic 2",
+        "rfolder": "masteringarabic2"
+      },
+      { "rid": "SA5", "rname": "quickstart Arabic", "rfolder": "quickstart" },
+      { "rid": "SA6", "rname": "Talk Arabic", "rfolder": "talkarabic" }
+    ]
+  },
+  {
+    "id": "2",
+    "lname": "Chinese",
+    "lcode": "cn",
+    "resource": [
+      {
+        "rid": "CN1",
+        "rname": "Practical Chinese Reader 1",
+        "rfolder": "chreader1"
+      },
+      {
+        "rid": "CN2",
+        "rname": "Practical Chinese Reader 2",
+        "rfolder": "chreader2"
+      },
+      { "rid": "CN3", "rname": "Colloquial Chinese 1", "rfolder": "coll1" },
+      { "rid": "CN4", "rname": "Colloquial Chinese 2", "rfolder": "coll2" },
+      { "rid": "CN5", "rname": "Experiencing Chinese 1", "rfolder": "cxp1" },
+      { "rid": "CN6", "rname": "Experiencing Chinese 2", "rfolder": "cxp2" }
+    ]
+  },
+  {
+    "id": "3",
+    "lname": "English",
+    "lcode": "gb"
+  },
+  {
+    "id": "4",
+    "lname": "French",
+    "lcode": "fr"
+  },
+  {
+    "id": "5",
+    "lname": "German",
+    "lcode": "de"
+  },
+  {
+    "id": "6",
+    "lname": "Greek",
+    "lcode": "gr"
+  },
+  {
+    "id": "7",
+    "lname": "Hungarian",
+    "lcode": "hu"
+  },
+  {
+    "id": "8",
+    "lname": "Italian",
+    "lcode": "it"
+  },
+  {
+    "id": "9",
+    "lname": "Japanese",
+    "lcode": "jp"
+  },
+  {
+    "id": "10",
+    "lname": "Polish",
+    "lcode": "pl"
+  },
+  {
+    "id": "11",
+    "lname": "Portuguese",
+    "lcode": "pt"
+  },
+  {
+    "id": "12",
+    "lname": "Russian",
+    "lcode": "ru"
+  },
+  {
+    "id": "13",
+    "lname": "Spanish",
+    "lcode": "es"
+  },
+  {
+    "id": "14",
+    "lname": "Urdu",
+    "lcode": "pk"
+  }
+]
