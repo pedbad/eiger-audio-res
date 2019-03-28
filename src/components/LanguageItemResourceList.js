@@ -16,6 +16,10 @@ export default class LanguageItemResourceList extends Component {
   };
 
   render() {
+    const featuredListItems = this.props.resources.features.map(res => {
+      return <FeaturesList key={res.ruid} resources={res} />;
+    });
+
     const { activeIndex } = this.state;
 
     return (
@@ -29,7 +33,7 @@ export default class LanguageItemResourceList extends Component {
           {this.props.resources.rname}
         </Accordion.Title>
         <Accordion.Content active={activeIndex === -1}>
-          <FeaturesList features={this.props.resources.features} />
+          {featuredListItems}
         </Accordion.Content>
       </Accordion>
     );

@@ -38,5 +38,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      document.addEventListener("play", function(evt) {
+        console.log(window.$_currentlyPlaying);
+          if(window.$_currentlyPlaying && window.$_currentlyPlaying != evt.target){
+              window.$_currentlyPlaying.pause();
+          } 
+          window.$_currentlyPlaying = evt.target;
+      }, true);
+    
+    </script>
   </body>
 </html>

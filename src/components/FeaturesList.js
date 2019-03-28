@@ -1,37 +1,43 @@
 import React, { Component } from "react";
-import AudioPlayerList from "./AudioPlayerList";
+import { Accordion, Icon } from "semantic-ui-react";
+import AudioPlayer from "./AudioPlayer";
 
-const FeaturesList = ({ features }) => {
-  console.log("[FeaturesList] - ", features);
-  if (!features) {
-    return <div>Loading....</div>;
-  }
+export default class Test extends Component {
+  state = {
+    activeIndex: 0
+  };
 
-  const featList = features.map(feature => {
-    var rows = [];
-    for (var i = 0; i < feature.resItem; i++) {
-      // note: we add a key prop here to allow react to uniquely identify each
-      // element in this array. see: https://reactjs.org/docs/lists-and-keys.html
-      rows.push(<AudioPlayerList key={i} />);
-    }
+  handleClick = (e, titleProps) => {
+    const { index } = titleProps;
+    const { activeIndex } = this.state;
+    const newIndex = activeIndex === index ? -1 : index;
+
+    this.setState({ activeIndex: newIndex });
+  };
+
+  render() {
+    const { activeIndex } = this.state;
+
+    const audioItem = this.props.resources.resItem.map(res => {
+      console.log("audio resource is: ", res);
+      return <AudioPlayer key={res.resid} resources={res} />;
+    });
 
     return (
-      <div className="feature-item ui segment" key={feature.ruid}>
-        <p className="feature-label ui medium header">
-          {feature.resUnit} <small>{feature.label}</small>
-        </p>
-
-        <p>Audio players here...</p>
-        <p>{feature.resItem.length}</p>
-
-        <AudioPlayerList resourceItem={feature.resItem} />
-
-        <p />
-      </div>
+      <Accordion fluid styled>
+        <Accordion.Title
+          active={activeIndex === -1}
+          index={0}
+          onClick={this.handleClick}
+        >
+          <Icon name="dropdown" />
+          {this.props.resources.resUnit}
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === -1}>
+          {this.props.resources.label}
+          {audioItem}
+        </Accordion.Content>
+      </Accordion>
     );
-  });
-
-  return <div>{featList}</div>;
-};
-
-export default FeaturesList;
+  }
+}

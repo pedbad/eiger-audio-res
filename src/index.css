@@ -28,3 +28,7 @@ code {
   font-weight: 100;
   font-size: 0.8rem;
 }
+
+.accordion {
+  margin-bottom: 5px;
+}
