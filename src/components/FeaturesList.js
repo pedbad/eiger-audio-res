@@ -19,7 +19,7 @@ export default class Test extends Component {
     const { activeIndex } = this.state;
 
     const audioItem = this.props.resources.resItem.map(res => {
-      console.log("audio resource is: ", res);
+      //console.log("audio resource is: ", res);
       return <AudioPlayer key={res.resid} resources={res} />;
     });
 
@@ -34,7 +34,10 @@ export default class Test extends Component {
           {this.props.resources.resUnit}
         </Accordion.Title>
         <Accordion.Content active={activeIndex === -1}>
-          {this.props.resources.label}
+          <div className="ui horizontal section divider">
+            {this.props.resources.label}
+          </div>
+
           {audioItem}
         </Accordion.Content>
       </Accordion>

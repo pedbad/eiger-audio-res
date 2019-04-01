@@ -15,7 +15,12 @@ const LanguageDetail = ({ language }) => {
   return (
     <div className="language-detail">
       <div className="ui segment">
-        <h4 className="ui header">{language.lname}</h4>
+        <div className="ui inverted segment language-title-label">
+          <h6 className="ui horizontal fitted divider">
+            <i className={`${language.lcode} flag`} /> {language.lname}
+          </h6>
+        </div>
+
         {renderedList}
       </div>
     </div>

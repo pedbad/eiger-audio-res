@@ -7,7 +7,6 @@
       {
         "rid": "SA1",
         "rname": "Listening - Features, Series",
-        "rfolder": "features",
         "features": [
           {
             "ruid": "SA1_1",
@@ -17,22 +16,22 @@
               {
                 "resid": "SA1_1_1",
                 "name": "Part 1 (14:26)",
-                "fname": "CD_MED_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_MED_1.mp3"
               },
               {
                 "resid": "SA1_1_2",
                 "name": "Part 2 (14:27)",
-                "fname": "CD_MED_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_MED_2.mp3"
               },
               {
                 "resid": "SA1_1_3",
                 "name": "Part 3 (14:07)",
-                "fname": "CD_MED_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_MED_3.mp3"
               },
               {
                 "resid": "SA1_1_4",
                 "name": "Part 4 (14:24)",
-                "fname": "CD_MED_4.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_MED_4.mp3"
               }
             ]
           },
@@ -44,17 +43,17 @@
               {
                 "resid": "SA1_2_1",
                 "name": "Audio 1",
-                "fname": "CD_EGY1_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY1_1.mp3"
               },
               {
                 "resid": "SA1_2_2",
                 "name": "Audio 2",
-                "fname": "CD_EGY1_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY1_2.mp3"
               },
               {
                 "resid": "SA1_2_3",
                 "name": "Audio 3",
-                "fname": "CD_EGY1_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY1_3.mp3"
               }
             ]
           },
@@ -66,17 +65,17 @@
               {
                 "resid": "SA1_3_1",
                 "name": "Audio 1",
-                "fname": "CD_EGY2_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY2_1.mp3"
               },
               {
                 "resid": "SA1_3_2",
                 "name": "Audio 2",
-                "fname": "CD_EGY2_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY2_2.mp3"
               },
               {
                 "resid": "SA1_3_3",
                 "name": "Audio 3",
-                "fname": "CD_EGY2_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_EGY2_3.mp3"
               }
             ]
           },
@@ -88,19 +87,23 @@
               {
                 "resid": "SA1_4_1",
                 "name": "Audio 1",
-                "fname": "CD_ZOK_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_ZOK_1.mp3"
               },
               {
                 "resid": "SA1_4_2",
                 "name": "Audio 2",
-                "fname": "CD_ZOK_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_ZOK_2.mp3"
               },
               {
                 "resid": "SA1_4_3",
                 "name": "Audio 3",
-                "fname": "CD_ZOK_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_ZOK_3.mp3"
               },
-              { "resid": "SA1_4_4", "name": "Audio 4", "fname": "CD_ZOK_4.mp3" }
+              {
+                "resid": "SA1_4_4",
+                "name": "Audio 4",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_ZOK_4.mp3"
+              }
             ]
           },
           {
@@ -111,19 +114,23 @@
               {
                 "resid": "SA1_5_1",
                 "name": "Audio 1",
-                "fname": "CD_HUS_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_HUS_1.mp3"
               },
               {
                 "resid": "SA1_5_2",
                 "name": "Audio 2",
-                "fname": "CD_HUS_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_HUS_2.mp3"
               },
               {
                 "resid": "SA1_5_3",
                 "name": "Audio 3",
-                "fname": "CD_HUS_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_HUS_3.mp3"
               },
-              { "resid": "SA1_5_4", "name": "Audio 4", "fname": "CD_HUS_4.mp3" }
+              {
+                "resid": "SA1_5_4",
+                "name": "Audio 4",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_HUS_4.mp3"
+              }
             ]
           },
           {
@@ -134,19 +141,23 @@
               {
                 "resid": "SA1_6_1",
                 "name": "Audio 1",
-                "fname": "CD_FAR_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_FAR_1.mp3"
               },
               {
                 "resid": "SA1_6_2",
                 "name": "Audio 2",
-                "fname": "CD_FAR_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_FAR_2.mp3"
               },
               {
                 "resid": "SA1_6_3",
                 "name": "Audio 3",
-                "fname": "CD_FAR_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_FAR_3.mp3"
               },
-              { "resid": "SA1_6_4", "name": "Audio 4", "fname": "CD_FAR_4.mp3" }
+              {
+                "resid": "SA1_6_4",
+                "name": "Audio 4",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_FAR_4.mp3"
+              }
             ]
           },
           {
@@ -157,22 +168,22 @@
               {
                 "resid": "SA1_7_1",
                 "name": "Audio 1",
-                "fname": "CD_XTRA_1.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_XTRA_1.mp3"
               },
               {
                 "resid": "SA1_7_2",
                 "name": "Audio 2",
-                "fname": "CD_XTRA_2.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_XTRA_2.mp3"
               },
               {
                 "resid": "SA1_7_3",
                 "name": "Audio 3",
-                "fname": "CD_XTRA_3.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_XTRA_3.mp3"
               },
               {
                 "resid": "SA1_7_4",
                 "name": "Audio 4",
-                "fname": "CD_XTRA_4.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/features/CD_XTRA_4.mp3"
               }
             ]
           }
@@ -191,7 +202,7 @@
               {
                 "resid": "SA2_1_1",
                 "name": "Audio (7:46)",
-                "fname": "CD_SKETCH.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/interviews/CD_SKETCH.mp3"
               }
             ]
           },
@@ -203,7 +214,7 @@
               {
                 "resid": "SA2_2_1",
                 "name": "Audio (10:50)",
-                "fname": "CD_SUDPRES.mp3"
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/interviews/CD_SUDPRES.mp3"
               }
             ]
           },
@@ -212,7 +223,11 @@
             "label": "Interview 3, (BBC World Service, 2005)",
             "resUnit": "Interview with Omani Information Minsiter",
             "resItem": [
-              { "resid": "SA2_3_1", "name": "Audio 1", "fname": "CD_OMANI.mp3" }
+              {
+                "resid": "SA2_3_1",
+                "name": "Audio 1",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/interviews/CD_OMANI.mp3"
+              }
             ]
           },
           {
@@ -220,7 +235,1307 @@
             "label": "Interview 4, (BBC World Service, 2005)",
             "resUnit": "Anan lecture on BBC's ...",
             "resItem": [
-              { "resid": "SA2_4_1", "name": "Audio 1", "fname": "CD_ANAN.mp3" }
+              {
+                "resid": "SA2_4_1",
+                "name": "Audio 1",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/interviews/CD_ANAN.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rid": "SA3",
+        "rname": "Mastering Arabic Series 1",
+        "features": [
+          {
+            "ruid": "SA3_1",
+            "label": "Getting started",
+            "resUnit": "Unit 1 - Getting started",
+            "resItem": [
+              {
+                "resid": "SA3_1_1",
+                "name": "Introduction (p. xii)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_1.mp3"
+              },
+              {
+                "resid": "SA3_1_2",
+                "name": "Letters of the alphabet: group 1 (p. 3)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_2.mp3"
+              },
+              {
+                "resid": "SA3_1_3",
+                "name": "Vowels (p. 5)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_3.mp3"
+              },
+              {
+                "resid": "SA3_1_4",
+                "name": "Exercise 2 (p. 5)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_4.mp3"
+              },
+              {
+                "resid": "SA3_1_5",
+                "name": "Exercise 6 (p. 9)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_5.mp3"
+              },
+              {
+                "resid": "SA3_1_6",
+                "name": "Shadda (p. 9)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_6.mp3"
+              },
+              {
+                "resid": "SA3_1_7",
+                "name": "Exercise 7  (p. 10)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_7.mp3"
+              },
+              {
+                "resid": "SA3_1_8",
+                "name": "Conversation: Greetings (p. 11)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_8.mp3"
+              }
+            ]
+          },
+
+          {
+            "ruid": "SA3_2",
+            "label": "Putting words together",
+            "resUnit": "Unit 2 - Putting words together",
+            "resItem": [
+              {
+                "resid": "SA3_2_1",
+                "name": "Letters and alphabet: group 2 (p. 13)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_9.mp3"
+              },
+              {
+                "resid": "SA3_2_2",
+                "name": "Long vowels (p. 17)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_10.mp3"
+              },
+              {
+                "resid": "SA3_2_3",
+                "name": "Exercise 3 (p. 18-19)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_11.mp3"
+              },
+              {
+                "resid": "SA3_2_4",
+                "name": "Exercise 4 (p. 19)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_12.mp3"
+              },
+              {
+                "resid": "SA3_2_5",
+                "name": "Alif (p. 20)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_13.mp3"
+              },
+              {
+                "resid": "SA3_2_6",
+                "name": "Putting words together (p. 20)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_14.mp3"
+              },
+              {
+                "resid": "SA3_2_7",
+                "name": "Exercise 5 (p. 21)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_15.mp3"
+              },
+              {
+                "resid": "SA3_2_8",
+                "name": "Simple sentences (p. 22)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_16.mp3"
+              },
+              {
+                "resid": "SA3_2_9",
+                "name": "Male and female (p. 23)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_17.mp3"
+              },
+              {
+                "resid": "SA3_2_10",
+                "name": "Conversation: Introductions (p. 24)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_18.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_3",
+            "label": "The family",
+            "resUnit": "Unit 3 - The family",
+            "resItem": [
+              {
+                "resid": "SA3_3_1",
+                "name": "Letters of the alphabet: group 3 (p. 25)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_19.mp3"
+              },
+              {
+                "resid": "SA3_3_2",
+                "name": "Exercise 1 (p. 26)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_20.mp3"
+              },
+              {
+                "resid": "SA3_3_3",
+                "name": "Exercise 2 (p. 28)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_21.mp3"
+              },
+              {
+                "resid": "SA3_3_4",
+                "name": "Exercise 4 (p. 30)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_22.mp3"
+              },
+              {
+                "resid": "SA3_3_5",
+                "name": "What's this? (p. 31)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_23.mp3"
+              },
+              {
+                "resid": "SA3_3_6",
+                "name": "The family (p. 32-33)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_24.mp3"
+              },
+              {
+                "resid": "SA3_3_7",
+                "name": "Conversation: Introducing your family (p. 36)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_25.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_4",
+            "label": "Jobs",
+            "resUnit": "Unit 4 - Jobs",
+            "resItem": [
+              {
+                "resid": "SA3_4_1",
+                "name": "Letters of the alphabet: group 4 (p. 37)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_26.mp3"
+              },
+              {
+                "resid": "SA3_4_2",
+                "name": "Emphatic and non-emphatic sounds (p. 40)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_27.mp3"
+              },
+              {
+                "resid": "SA3_4_3",
+                "name": "Exercise 1 (p. 40)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_28.mp3"
+              },
+              {
+                "resid": "SA3_4_4",
+                "name": "Jobs (p. 42)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_29.mp3"
+              },
+              {
+                "resid": "SA3_4_5",
+                "name": "Exercise 3 (p. 43)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_30.mp3"
+              },
+              {
+                "resid": "SA3_4_6",
+                "name": "Making words plural (p. 44)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_31.mp3"
+              },
+              {
+                "resid": "SA3_4_7",
+                "name": "Conversation: Talking about what you do (p. 47)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_32.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_5",
+            "label": "Describing things",
+            "resUnit": "Unit 5 - Describing things",
+            "resItem": [
+              {
+                "resid": "SA3_5_1",
+                "name": "Letters of the alphabet: group 5 (p. 50)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_33.mp3"
+              },
+              {
+                "resid": "SA3_5_2",
+                "name": "Exercise 1 (p. 51)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_34.mp3"
+              },
+              {
+                "resid": "SA3_5_3",
+                "name": "Everyday objects (p. 54)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_35.mp3"
+              },
+              {
+                "resid": "SA3_5_4",
+                "name": "Describing things (p. 56)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_36.mp3"
+              },
+              {
+                "resid": "SA3_5_5",
+                "name": "Whose is it? (p. 59)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_37.mp3"
+              },
+              {
+                "resid": "SA3_5_6",
+                "name": "Conversation: Polite requests (p. 63)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_38.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_6",
+            "label": "Where is it?",
+            "resUnit": "Unit 6 - Where is it?",
+            "resItem": [
+              {
+                "resid": "SA3_6_1",
+                "name": "Letters of the alphabet: group 6 (p. 65)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_39.mp3"
+              },
+              {
+                "resid": "SA3_6_2",
+                "name": "Exercise 1 (p. 66)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_40.mp3"
+              },
+              {
+                "resid": "SA3_6_3",
+                "name": "ghayn (p. 67)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_41.mp3"
+              },
+              {
+                "resid": "SA3_6_4",
+                "name": "Exercise 2 (p. 67)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_42.mp3"
+              },
+              {
+                "resid": "SA3_6_5",
+                "name": "Sun letters (p. 72)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_43.mp3"
+              },
+              {
+                "resid": "SA3_6_6",
+                "name": "Exercise 6 (p. 73)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_44.mp3"
+              },
+              {
+                "resid": "SA3_6_7",
+                "name": "Asking questions (p. 74)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_45.mp3"
+              },
+              {
+                "resid": "SA3_6_8",
+                "name": "Exercise 8 (p. 75)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_46.mp3"
+              },
+              {
+                "resid": "SA3_6_9",
+                "name": "Where? (p. 76)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_47.mp3"
+              },
+              {
+                "resid": "SA3_6_10",
+                "name": "Conversation: Dialects (p. 79)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_48.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_7",
+            "label": "Describing places",
+            "resUnit": "Unit 7 - Describing places",
+            "resItem": [
+              {
+                "resid": "SA3_7_1",
+                "name": "The town (p. 81)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_49.mp3"
+              },
+              {
+                "resid": "SA3_7_2",
+                "name": "Exercise 4 (p. 85)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_50.mp3"
+              },
+              {
+                "resid": "SA3_7_3",
+                "name": "Exercise 6 (p. 88)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_51.mp3"
+              },
+              {
+                "resid": "SA3_7_4",
+                "name": "Exercise 7 (p. 88)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_52.mp3"
+              },
+              {
+                "resid": "SA3_7_5",
+                "name": "Describing your town or your room (p. 89)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_53.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_8",
+            "label": "Review",
+            "resUnit": "Unit 8 - Review",
+            "resItem": [
+              {
+                "resid": "SA3_8_1",
+                "name": "Exercise 1 (p. 90)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_54.mp3"
+              },
+              {
+                "resid": "SA3_8_2",
+                "name": "Exercise 4 (p. 92)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_55.mp3"
+              },
+              {
+                "resid": "SA3_8_3",
+                "name": "Conversation: Review (p. 100)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_56.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_9",
+            "label": "Countries and people",
+            "resUnit": "Unit 9 - Countries and people",
+            "resItem": [
+              {
+                "resid": "SA3_9_1",
+                "name": "The Middle East (p. 101)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_57.mp3"
+              },
+              {
+                "resid": "SA3_9_2",
+                "name": "Capital city (p. 102)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_58.mp3"
+              },
+              {
+                "resid": "SA3_9_3",
+                "name": "Geographical position (p. 104)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_59.mp3"
+              },
+              {
+                "resid": "SA3_9_4",
+                "name": "Exercise 5 (p. 105)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_60.mp3"
+              },
+              {
+                "resid": "SA3_9_5",
+                "name": "Nationalities (p. 106)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_61.mp3"
+              },
+              {
+                "resid": "SA3_9_6",
+                "name": "Conversation: Talking about where you come from (p. 111)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_62.mp3"
+              },
+              {
+                "resid": "SA3_9_7",
+                "name": "Exercise 10 (p. 112)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_1_63.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_10",
+            "label": "Counting things",
+            "resUnit": "Unit 10 - Counting things",
+            "resItem": [
+              {
+                "resid": "SA3_10_1",
+                "name": "Arabic numbers 1-10 (p. 116)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_1.mp3"
+              },
+              {
+                "resid": "SA3_10_2",
+                "name": "Exercise 2 (p. 118)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_2.mp3"
+              },
+              {
+                "resid": "SA3_10_3",
+                "name": "Counting things (p. 119)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_3.mp3"
+              },
+              {
+                "resid": "SA3_10_4",
+                "name": "How much? (p. 123)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_4.mp3"
+              },
+              {
+                "resid": "SA3_10_5",
+                "name": "In the market (p. 125)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_5.mp3"
+              },
+              {
+                "resid": "SA3_10_6",
+                "name": "Conversation: In the market (p. 128)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_6.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_11",
+            "label": "Plurals and colours",
+            "resUnit": "Unit 11 - Plurals and colours",
+            "resItem": [
+              {
+                "resid": "SA3_11_1",
+                "name": "Plural patterns 1 and 2 (p. 134)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_7.mp3"
+              },
+              {
+                "resid": "SA3_11_2",
+                "name": "Exercise 3 (p. 136)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_8.mp3"
+              },
+              {
+                "resid": "SA3_11_3",
+                "name": "What are these? (p. 137)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_9.mp3"
+              },
+              {
+                "resid": "SA3_11_4",
+                "name": "The party (p. 140)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_10.mp3"
+              },
+              {
+                "resid": "SA3_11_5",
+                "name": "Salwa in the party shop (p. 141)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_11.mp3"
+              },
+              {
+                "resid": "SA3_11_6",
+                "name": "Exercise 7 (p. 143)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_12.mp3"
+              },
+              {
+                "resid": "SA3_11_7",
+                "name": "Conversation: Going shopping (p. 145)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_13.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_12",
+            "label": "What happened yesterday?",
+            "resUnit": "Unit 12 - What happened yesterday?",
+            "resItem": [
+              {
+                "resid": "SA3_12_1",
+                "name": "Ahmed Hamdi's alibi (p. 148-9)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_14.mp3"
+              },
+              {
+                "resid": "SA3_12_2",
+                "name": "Asking questions about the past (p. 151)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_15.mp3"
+              },
+              {
+                "resid": "SA3_12_3",
+                "name": "Zaynab's story (p. 154)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_16.mp3"
+              },
+              {
+                "resid": "SA3_12_4",
+                "name": "Joining sentences together (p. 158)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_17.mp3"
+              },
+              {
+                "resid": "SA3_12_5",
+                "name": "Exercise 8 (p. 160)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_18.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_13",
+            "label": "Wish you were here",
+            "resUnit": "Unit 13 - Wish you were here",
+            "resItem": [
+              {
+                "resid": "SA3_13_1",
+                "name": "Plural patterns 3 and 4 (p. 166)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_19.mp3"
+              },
+              {
+                "resid": "SA3_13_2",
+                "name": "Exercise 1 (p. 168)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_20.mp3"
+              },
+              {
+                "resid": "SA3_13_3",
+                "name": "Numbers 11-100 (p. 169 and 171)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_21.mp3"
+              },
+              {
+                "resid": "SA3_13_4",
+                "name": "What's the weather like? (p. 173)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_22.mp3"
+              },
+              {
+                "resid": "SA3_13_5",
+                "name": "Describing the weather (p.174-5)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_23.mp3"
+              },
+              {
+                "resid": "SA3_13_6",
+                "name": "Conversation: Talking about a vacation (p. 179)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_24.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_14",
+            "label": "All the President's men",
+            "resUnit": "Unit 14 - All the President's men",
+            "resItem": [
+              {
+                "resid": "SA3_14_1",
+                "name": "Days of the week (p. 181)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_25.mp3"
+              },
+              {
+                "resid": "SA3_14_2",
+                "name": "Plural pattern 5 (p. 183)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_26.mp3"
+              },
+              {
+                "resid": "SA3_14_3",
+                "name": "Exercise 4 (p. 184)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_27.mp3"
+              },
+              {
+                "resid": "SA3_14_4",
+                "name": "What did the President do last week? (p. 186-7)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_28.mp3"
+              },
+              {
+                "resid": "SA3_14_5",
+                "name": "The cabinet (p. 190-1)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_29.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_15",
+            "label": "Review",
+            "resUnit": "Unit 15 - Review",
+            "resItem": [
+              {
+                "resid": "SA3_15_1",
+                "name": "Exercise 2 (p. 199)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_30.mp3"
+              },
+              {
+                "resid": "SA3_15_2",
+                "name": "Exercise 10 (p. 205)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_31.mp3"
+              },
+              {
+                "resid": "SA3_15_3",
+                "name": "Conversation: Review (p. 206)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_32.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_16",
+            "label": "Every day",
+            "resUnit": "Unit 16 - Every day",
+            "resItem": [
+              {
+                "resid": "SA3_16_1",
+                "name": "What's the time? (p. 208)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_33.mp3"
+              },
+              {
+                "resid": "SA3_16_2",
+                "name": "More about time (p. 210)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_34.mp3"
+              },
+              {
+                "resid": "SA3_16_3",
+                "name": "Exercise 3 (p. 211)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_35.mp3"
+              },
+              {
+                "resid": "SA3_16_4",
+                "name": "Every day (p. 212-3)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_36.mp3"
+              },
+              {
+                "resid": "SA3_16_5",
+                "name": "Exercise 4 (p. 215)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_37.mp3"
+              },
+              {
+                "resid": "SA3_16_6",
+                "name": "Negative statements (p. 216)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_38.mp3"
+              },
+              {
+                "resid": "SA3_16_7",
+                "name": "Asking questions about every day (p. 217)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_39.mp3"
+              },
+              {
+                "resid": "SA3_16_8",
+                "name": "At school (p. 219)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_40.mp3"
+              },
+              {
+                "resid": "SA3_16_9",
+                "name": "What does the class study? (p. 220)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_41.mp3"
+              },
+              {
+                "resid": "SA3_16_10",
+                "name": "Exercise 10 (p. 222)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_42.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_17",
+            "label": "Eating and drinking",
+            "resUnit": "Unit 17 - Eating and drinking",
+            "resItem": [
+              {
+                "resid": "SA3_17_1",
+                "name": "At the grocer's (p. 225)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_43.mp3"
+              },
+              {
+                "resid": "SA3_17_2",
+                "name": "Describing packaging (p. 227)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_44.mp3"
+              },
+              {
+                "resid": "SA3_17_3",
+                "name": "Buying provisions (p. 228)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_45.mp3"
+              },
+              {
+                "resid": "SA3_17_4",
+                "name": "Exercise 3 (p. 229)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_46.mp3"
+              },
+              {
+                "resid": "SA3_17_5",
+                "name": "Words for places (p. 231)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_47.mp3"
+              },
+              {
+                "resid": "SA3_17_6",
+                "name": "Waiter! (p. 232)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_48.mp3"
+              },
+              {
+                "resid": "SA3_17_7",
+                "name": "Conversation: At the restaurant (p. 233)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_49.mp3"
+              },
+              {
+                "resid": "SA3_17_8",
+                "name": "In the kitchen (p. 234)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_50.mp3"
+              },
+              {
+                "resid": "SA3_17_9",
+                "name": "Have you done it? (p. 237)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_51.mp3"
+              },
+              {
+                "resid": "SA3_17_10",
+                "name": "He didn't do it (p. 239)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_52.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_18",
+            "label": "Compairing things",
+            "resUnit": "Unit 18 - Compairing things",
+            "resItem": [
+              {
+                "resid": "SA3_18_1",
+                "name": "The biggest in the world (p. 244)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_53.mp3"
+              },
+              {
+                "resid": "SA3_18_2",
+                "name": "Exercise 3 (p. 248)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_54.mp3"
+              },
+              {
+                "resid": "SA3_18_3",
+                "name": "Comparing past and present (p. 249)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_55.mp3"
+              },
+              {
+                "resid": "SA3_18_4",
+                "name": "How things used to be (p. 251)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_56.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_19",
+            "label": "Future plans",
+            "resUnit": "Unit 19 - Future plans",
+            "resItem": [
+              {
+                "resid": "SA3_19_1",
+                "name": "Months of the year (p. 260)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_57.mp3"
+              },
+              {
+                "resid": "SA3_19_2",
+                "name": "Exercise 1 (p. 260)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_58.mp3"
+              },
+              {
+                "resid": "SA3_19_3",
+                "name": "In the future (p. 262)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_59.mp3"
+              },
+              {
+                "resid": "SA3_19_4",
+                "name": "The flying bicycle (p. 267)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_60.mp3"
+              },
+              {
+                "resid": "SA3_19_5",
+                "name": "Forms of the verb: VII, VIII, X (p. 268)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_61.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA3_20",
+            "label": "Review and advice on future study",
+            "resUnit": "Unit 20 - Review and advice on future study",
+            "resItem": [
+              {
+                "resid": "SA3_20_1",
+                "name": "Exercise 2 (p. 272)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_62.mp3"
+              },
+              {
+                "resid": "SA3_20_2",
+                "name": "Exercise 6 (p. 274)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_63.mp3"
+              },
+              {
+                "resid": "SA3_20_3",
+                "name": "Conversation: Review (p. 277)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_64.mp3"
+              },
+              {
+                "resid": "SA3_20_4",
+                "name": "Concluding expressions (p. 280)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic1/CD_2_65.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rid": "SA4",
+        "rname": "Mastering Arabic Series 2",
+        "features": [
+          {
+            "ruid": "SA4_1",
+            "label": "Myself and others",
+            "resUnit": "Unit 1 - Myself and others",
+            "resItem": [
+              {
+                "resid": "SA4_1_1",
+                "name": "Talking about yourself (p. 2)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_1.mp3"
+              },
+              {
+                "resid": "SA4_1_2",
+                "name": "Asking others (p. 4)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_2.mp3"
+              },
+              {
+                "resid": "SA4_1_3",
+                "name": "Exercise 4 (p. 7)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_3.mp3"
+              },
+              {
+                "resid": "SA4_1_4",
+                "name": "Conversation (p. 8)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_4.mp3"
+              },
+              {
+                "resid": "SA4_1_5",
+                "name": "My family (p. 9)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_5.mp3"
+              },
+              {
+                "resid": "SA4_1_6",
+                "name": "Exercise 10 (p. 12)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_6.mp3"
+              },
+              {
+                "resid": "SA4_1_7",
+                "name": "Talking about childhood (p. 14)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_7.mp3"
+              },
+              {
+                "resid": "SA4_1_8",
+                "name": "Exercise 12 (p. 14)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_8.mp3"
+              },
+                            {
+                "resid": "SA4_1_9",
+                "name": "A look at Egypt (p. 16)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_9.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_2",
+            "label": "House and home",
+            "resUnit": "Unit 2 - House and home",
+            "resItem": [
+              {
+                "resid": "SA4_2_1",
+                "name": "Talking about rooms (p. 20)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_10.mp3"
+              },              
+              {
+                "resid": "SA4_2_2",
+                "name": "Exercise 1 (p. 21)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_11.mp3"
+              },
+              {
+                "resid": "SA4_2_3",
+                "name": "Describing your home (p. 23)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_12.mp3"
+              },
+              {
+                "resid": "SA4_2_4",
+                "name": "Exercise 6 (p. 25)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_13.mp3"
+              },
+              {
+                "resid": "SA4_2_5",
+                "name": "Conversation (p. 25)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_14.mp3"
+              },
+              {
+                "resid": "SA4_2_6",
+                "name": "Exercise 8 (p. 29)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_15.mp3"
+              },
+              {
+                "resid": "SA4_2_7",
+                "name": "A look at Saudi (p. 34)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_16.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_3",
+            "label": "Work and routine",
+            "resUnit": "Unit 3 - Work and routine",
+            "resItem": [
+              {
+                "resid": "SA4_3_1",
+                "name": "Talking about work (p. 39)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_17.mp3"
+              },
+              {
+                "resid": "SA4_3_2",
+                "name": "A day in the life of ... (p. 42) and Exercise 5 (p. 44)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_18.mp3"
+              },
+              {
+                "resid": "SA4_3_3",
+                "name": "Talking about housework (p. 45)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_19.mp3"
+              },
+              {
+                "resid": "SA4_3_4",
+                "name": "Exercise 9 (p. 46-47)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_20.mp3"
+              },
+              {
+                "resid": "SA4_3_5",
+                "name": "Conversation (p. 47)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_21.mp3"
+              },
+              {
+                "resid": "SA4_3_6",
+                "name": "A look at Syria (p. 52)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_22.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_4",
+            "label": "Sport and leisure",
+            "resUnit": "Unit 4 - Sport and leisure",
+            "resItem": [
+              {
+                "resid": "SA4_4_1",
+                "name": "Talking about sport (p. 56)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_23.mp3"
+              },
+              {
+                "resid": "SA4_4_2",
+                "name": "Exercises 2 and 3 (p. 58-60)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_24.mp3"
+              },
+              {
+                "resid": "SA4_4_3",
+                "name": "Exercise 7 (p. 64)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_25.mp3"
+              },
+              {
+                "resid": "SA4_4_4",
+                "name": "Extract from poem by Nizar Qabbaani (p. 65)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_26.mp3"
+              },
+              {
+                "resid": "SA4_4_5",
+                "name": "Exercise 9 (p. 67)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_27.mp3"
+              },
+              {
+                "resid": "SA4_4_6",
+                "name": "Conversation (p. 67)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_28.mp3"
+              },
+              {
+                "resid": "SA4_4_7",
+                "name": "A look at Morocco (p. 70)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_29.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_5",
+            "label": "Travel and tourism",
+            "resUnit": "Unit 5 - Travel and tourism",
+            "resItem": [
+              {
+                "resid": "SA4_5_1",
+                "name": "Around town (p. 74)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_30.mp3"
+              },
+              {
+                "resid": "SA4_5_2",
+                "name": "Exercise 3 (p. 77)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_31.mp3"
+              },
+              {
+                "resid": "SA4_5_3",
+                "name": "Conversation (p. 78)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_32.mp3"
+              },
+              {
+                "resid": "SA4_5_4",
+                "name": "Exercise 5 (p. 81)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_33.mp3"
+              },
+              {
+                "resid": "SA4_5_5",
+                "name": "A look at Tunisia (p. 88)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_34.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_6",
+            "label": "Food and cooking",
+            "resUnit": "Unit 6 - Food and cooking",
+            "resItem": [
+              {
+                "resid": "SA4_6_1",
+                "name": "Exercise 1 (p. 92)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_35.mp3"
+              },
+              {
+                "resid": "SA4_6_2",
+                "name": "At the greengrocer (p. 96)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_36.mp3"
+              },
+              {
+                "resid": "SA4_6_3",
+                "name": "Conversation (p. 97)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_37.mp3"
+              },
+              {
+                "resid": "SA4_6_4",
+                "name": "Exercise 7 (p. 98-99)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_38.mp3"
+              },
+              {
+                "resid": "SA4_6_5",
+                "name": "Conversation (p. 99)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_39.mp3"
+              },
+              {
+                "resid": "SA4_6_6",
+                "name": "Exercise 8 (p. 100)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_40.mp3"
+              },
+              {
+                "resid": "SA4_6_7",
+                "name": "Exercise 10 (p. 101)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_41.mp3"
+              },
+              {
+                "resid": "SA4_6_8",
+                "name": "A look at Lebanon (p. 106)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_1_42.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_7",
+            "label": "Review",
+            "resUnit": "Unit 7 - Review",
+            "resItem": [
+              {
+                "resid": "SA4_7_1",
+                "name": "Exercise 1 (p. 110)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_1.mp3"
+              },
+              {
+                "resid": "SA4_7_2",
+                "name": "Exercise 5 (p. 113)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_2.mp3"
+              },
+              {
+                "resid": "SA4_7_3",
+                "name": "Conversation (p. 113)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_3.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_8",
+            "label": "Clothes and colours",
+            "resUnit": "Unit 8 - Clothes and colours",
+            "resItem": [
+              {
+                "resid": "SA4_8_1",
+                "name": "Talking about clothes (p. 118)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_4.mp3"
+              },
+              {
+                "resid": "SA4_8_2",
+                "name": "Exercise 3 (p. 121)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_5.mp3"
+              },
+              {
+                "resid": "SA4_8_3",
+                "name": "At the clothes shop (p. 124)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_6.mp3"
+              },
+              {
+                "resid": "SA4_8_4",
+                "name": "Conversation (p. 125)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_7.mp3"
+              },
+              {
+                "resid": "SA4_8_5",
+                "name": "Exercise 7 (p. 126)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_8.mp3"
+              },
+              {
+                "resid": "SA4_8_6",
+                "name": "Exercise 10 (p. 130)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_9.mp3"
+              },
+              {
+                "resid": "SA4_8_7",
+                "name": "A look at Iraq (p. 132)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_10.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_9",
+            "label": "Education and training",
+            "resUnit": "Unit 9 - Education and training",
+            "resItem": [
+              {
+                "resid": "SA4_9_1",
+                "name": "School and university (p. 136)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_11.mp3"
+              },
+              {
+                "resid": "SA4_9_2",
+                "name": "Exercise 1 (p. 137)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_12.mp3"
+              },
+              {
+                "resid": "SA4_9_3",
+                "name": "Exercise 3 (p. 138)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_13.mp3"
+              },
+              {
+                "resid": "SA4_9_4",
+                "name": "Exercise 4 (p. 139)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_14.mp3"
+              },
+              {
+                "resid": "SA4_9_5",
+                "name": "Conversation (p. 139)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_15.mp3"
+              },
+              {
+                "resid": "SA4_9_6",
+                "name": "In the examination hall (p. 144)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_16.mp3"
+              },
+              {
+                "resid": "SA4_9_7",
+                "name": "A look at Algeria (p. 150)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_17.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_10",
+            "label": "News and media",
+            "resUnit": "Unit 10 - News and media",
+            "resItem": [
+              {
+                "resid": "SA4_10_1",
+                "name": "Talking about the news (p. 154)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_18.mp3"
+              },
+              {
+                "resid": "SA4_10_2",
+                "name": "Formal Arabic (p. 160)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_19.mp3"
+              },
+              {
+                "resid": "SA4_10_3",
+                "name": "Exercise 4 and 5 (p. 160-161)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_20.mp3"
+              },
+              {
+                "resid": "SA4_10_4",
+                "name": "A look at the Gulf and Yemen (p. 166-167)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_21.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_11",
+            "label": "Climate and the environment",
+            "resUnit": "Unit 11 - Climate and the environment",
+            "resItem": [
+              {
+                "resid": "SA4_11_1",
+                "name": "Talking about weather and climate (p. 170-171)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_22.mp3"
+              },
+              {
+                "resid": "SA4_11_2",
+                "name": "Exercise 1 (p. 171)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_23.mp3"
+              },
+              {
+                "resid": "SA4_11_3",
+                "name": "Exercise 3 (p. 173)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_24.mp3"
+              },
+              {
+                "resid": "SA4_11_4",
+                "name": "Exercise 5 (p. 174)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_25.mp3"
+              },
+              {
+                "resid": "SA4_11_5",
+                "name": "Extract from poem by Mahmoud Darwish (p. 177)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_26.mp3"
+              },
+              {
+                "resid": "SA4_11_6",
+                "name": "Al-Mustaqbal Beverages Company (p. 178) and Conversation (p. 180)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_27.mp3"
+              },
+              {
+                "resid": "SA4_11_7",
+                "name": "A look at Libya (p. 182)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_28.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_12",
+            "label": "Health and happiness",
+            "resUnit": "Unit 12 - Health and happiness",
+            "resItem": [
+              {
+                "resid": "SA4_12_1",
+                "name": "Talking about the body (p. 186)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_29.mp3"
+              },
+              {
+                "resid": "SA4_12_2",
+                "name": "Exercise 2 (p. 188)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_30.mp3"
+              },
+              {
+                "resid": "SA4_12_3",
+                "name": "Exercise 3 and 4 (p. 189-190)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_31.mp3"
+              },
+              {
+                "resid": "SA4_12_4",
+                "name": "Conversation (p. 191)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_32.mp3"
+              },
+              {
+                "resid": "SA4_12_5",
+                "name": "A look at Sudan (p. 198)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_33.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_13",
+            "label": "Arts and cinema",
+            "resUnit": "Unit 13 - Arts and cinema",
+            "resItem": [
+              {
+                "resid": "SA4_13_1",
+                "name": "Talking about culture (p. 202)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_34.mp3"
+              },
+              {
+                "resid": "SA4_13_2",
+                "name": "Conversation (p. 205)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_35.mp3"
+              },
+              {
+                "resid": "SA4_13_3",
+                "name": "Exercise 4 (p. 207)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_36.mp3"
+              },
+              {
+                "resid": "SA4_13_4",
+                "name": "A look at Jordan and Palestine (p. 214)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_37.mp3"
+              }
+            ]
+          },
+          {
+            "ruid": "SA4_14",
+            "label": "Review",
+            "resUnit": "Unit 14 - Review",
+            "resItem": [
+              {
+                "resid": "SA4_14_1",
+                "name": "Exercise 3 (p. 219)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_38.mp3"
+              },
+              {
+                "resid": "SA4_14_2",
+                "name": "Conversation (p. 220)",
+                "fsource": "http://eiger.langcen.cam.ac.uk/audio1/languages/arabic/masteringarabic2/CD_2_39.mp3"
+              }
             ]
           }
         ]

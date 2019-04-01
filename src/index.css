@@ -32,3 +32,23 @@ code {
 .accordion {
   margin-bottom: 5px;
 }
+
+audio {
+  height: 28px;
+  width: 90%;
+}
+
+audio:focus {
+  outline: 1px solid teal;
+  outline-style: dotted;
+}
+
+.audio-container {
+  height: 60px;
+  padding: 0px !important;
+  margin: 0px 0px 5px 15px !important;
+}
+
+.language-title-label {
+  background-color: rgba(203, 237, 201, 0.3) !important;
+}
