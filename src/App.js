@@ -19,7 +19,7 @@ class App extends Component {
   componentDidMount() {
     this.setState({
       languages: audio_resourceData,
-      selectedLanguage: audio_resourceData[5]
+      selectedLanguage: audio_resourceData[12]
     });
   }
 
