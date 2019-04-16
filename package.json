@@ -1,6 +1,7 @@
 {
   "name": "eiger-audio-res",
   "version": "0.1.0",
+  "homepage": "http://eiger.langcen.cam.ac.uk/audio1/",
   "private": true,
   "dependencies": {
     "react": "^16.8.5",

@@ -3,6 +3,7 @@ import audio_resourceData from "./data/audio_resource.json";
 import Layout from "./components/Layout/Layout";
 import LanguageList from "./components/LanguageList";
 import LanguageDetail from "./components/LanguageDetail";
+import Header from "./components/Header";
 
 class App extends Component {
   state = {
@@ -19,7 +20,7 @@ class App extends Component {
   componentDidMount() {
     this.setState({
       languages: audio_resourceData,
-      selectedLanguage: audio_resourceData[12]
+      selectedLanguage: audio_resourceData[0]
     });
   }
 
@@ -29,6 +30,8 @@ class App extends Component {
         <Layout>
           <div className="app ui container" style={{ marginTop: "10px" }}>
             <div className="ui grid">
+              <Header />
+
               <div className="ui row">
                 <div className="three wide column">
                   <LanguageList
